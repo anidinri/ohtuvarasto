@@ -66,5 +66,5 @@ class TestVarasto(unittest.TestCase):
         
     def test_paljonko_tilaa(self):
         self.uusivarasto = Varasto(10, 5)
-        self.uusivarasto("saldo = 5, vielä tilaa 5")
+        self.assertEqual(str(self.uusivarasto), "saldo = 5, vielä tilaa 5")
     
