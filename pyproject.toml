@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ohtuvarasto"
 version = "0.1.0"
-description = "koulujuttuja"
+description = "koulujuttuja ja muuta"
 authors = ["Matti Luukkainen"]
 readme = "README.md"
 
