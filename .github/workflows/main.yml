@@ -28,5 +28,5 @@ jobs:
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v3
         env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          CODECOV_TOKEN: ${{ 38188683-8102-4c29-a830-28734c1b22b3 }}
 
