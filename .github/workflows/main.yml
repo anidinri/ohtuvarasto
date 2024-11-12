@@ -28,8 +28,11 @@ jobs:
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v3
         env:
-          CODECOV_TOKEN: ${{ 38188683-8102-4c29-a830-28734c1b22b3 }}
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
+      - name: Install pylint
+        run: pip install pylint
+        
       - name: Pylint action
         run: pylint src
       # You may pin to the exact commit or the version.
